@@ -1,0 +1,34 @@
+@import url(./basic/footer.css);
+@import url(./basic/header.css);
+@import url(./basic/main.css);
+@import url(./basic/normalaize.css);
+@import url(./pages/page-start.css);
+@import url(./pages/page-toy.css);
+@import url(./pages/page-tree.css);
+@import url(./components/nouislider.css);
+@import url(./components/garland.css);
+
+@font-face {
+  font-family: "Neucha", cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+  font-family: "Neucha", cursive;
+}
+
+.body {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  max-width: 100vw;
+  line-height: 1.5;
+  color: #fff;
+}

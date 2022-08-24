@@ -1,0 +1,15 @@
+
+.page {
+    min-width: 100%;
+    min-height: calc(100vh - 140px);
+    height: 100%;
+    background-image: url(../../assets/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0 calc(20px - (100vw - 100%)) 0 0;
+}
+
+
+.hide {
+    display: none !important;
+}
